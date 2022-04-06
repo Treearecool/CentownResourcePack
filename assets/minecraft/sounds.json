@@ -1,0 +1,157 @@
+{
+	"snr_platform": {
+		"sounds": [{
+			"name": "minecraft:snr_platform"
+		}]
+	},
+	"snr_mind_the_gap": {
+		"sounds": [{
+			"name": "minecraft:snr_mind_the_gap"
+		}]
+	},
+	"coconut_mall": {
+		"sounds": [{
+			"name": "minecraft:coconut_mall"
+		}]
+	},
+	"panasonic": {
+		"sounds": [{
+			"name": "minecraft:panasonic"
+		}]
+	},
+	"train_service": {
+		"sounds": [{
+			"name": "minecraft:train_service"
+		}]
+	},
+	"mask_up_metro": {
+		"sounds": [{
+			"name": "minecraft:mask_up_metro"
+		}]
+	},
+	"east_west_line_door_close": {
+		"sounds": [{
+			"name": "minecraft:east_west_line_door_close"
+		}]
+	},
+	"east_west_line_door_open": {
+		"sounds": [{
+			"name": "minecraft:east_west_line_door_open"
+		}]
+	},
+	"east_west_line_lol_wu_arrival": {
+		"sounds": [{
+			"name": "minecraft:east_west_line_lol_wu_arrival"
+		}]
+	},
+	"lo_wu_announcement": {
+		"sounds": [{
+			"name": "minecraft:lo_wu_announcement"
+		}]
+	},
+	"lo_wu_arrival_mtr_ver": {
+		"sounds": [{
+			"name": "minecraft:lo_wu_arrival_mtr_ver"
+		}]
+	},
+	"wdr_platform_doors": {
+		"sounds": [{
+			"name": "minecraft:wdr_platform_doors"
+		}]
+	},
+	"wdr_yellow_line": {
+		"sounds": [{
+			"name": "minecraft:wdr_yellow_line"
+		}]
+	},
+	"na_train_approaching_female": {
+		"sounds": [{
+			"name": "minecraft:train_approaching_female"
+		}]
+	},
+	"na_train_approaching_male": {
+		"sounds": [{
+			"name": "minecraft:train_approaching_male"
+		}]
+	},
+	"ol.forest_hills": {
+		"category": "master",
+		"sounds": ["ol/forest_hills"]
+	},
+	"ol.oak_grove": {
+		"category": "master",
+		"sounds": ["ol/oak_grove"]
+	},
+	"ap.ap_back_bay": {
+		"category": "master",
+		"sounds": ["ap/ap_back_bay"]
+	},
+	"ap.ap_forest_hills": {
+		"category": "master",
+		"sounds": ["ap/ap_forest_hills"]
+	},
+	"ap.ap_green": {
+		"category": "master",
+		"sounds": ["ap/ap_green"]
+	},
+	"ap.ap_jackson": {
+		"category": "master",
+		"sounds": ["ap/ap_jackson"]
+	},
+	"ap.ap_mass_ave": {
+		"category": "master",
+		"sounds": ["ap/ap_mass_ave"]
+	},
+	"ap.ap_roxbury": {
+		"category": "master",
+		"sounds": ["ap/ap_roxbury"]
+	},
+	"ap.ap_ruggles": {
+		"category": "master",
+		"sounds": ["ap/ap_ruggles"]
+	},
+	"ap.ap_stony_brook": {
+		"category": "master",
+		"sounds": ["ap/ap_stony_brook"]
+	},
+	"ns.ns_back_bay": {
+		"category": "master",
+		"sounds": ["ns/ns_back_bay"]
+	},
+	"ns.ns_forest_hills": {
+		"category": "master",
+		"sounds": ["ns/ns_forest_hills"]
+	},
+	"ns.ns_green": {
+		"category": "master",
+		"sounds": ["ns/ns_green"]
+	},
+	"ns.ap_ns_jackson": {
+		"category": "master",
+		"sounds": ["ns/ns_jackson"]
+	},
+	"ns.ns_mass_ave": {
+		"category": "master",
+		"sounds": ["ns/ns_mass_ave"]
+	},
+	"ns.ns_roxbury_crossing": {
+		"category": "master",
+		"sounds": ["ns/ns_roxbury_crossing"]
+	},
+	"ns.ns_ruggles": {
+		"category": "master",
+		"sounds": ["ns/ns_ruggles"]
+	},
+	"ns.ns_stony_brook": {
+		"category": "master",
+		"sounds": ["ns/ns_stony_brook"]
+	},
+	"s.forest_hills": {
+		"category": "master",
+		"sounds": ["s/forest_hills"]
+	},
+	"s.face_coverings": {
+		"category": "master",
+		"sounds": ["s/face_coverings"]
+	}
+}

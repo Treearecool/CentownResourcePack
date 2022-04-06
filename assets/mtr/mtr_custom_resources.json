@@ -1,0 +1,929 @@
+{
+	"custom_trains": {
+		"gzmtr_a1": {
+			"base_train_type": "base_24_2",
+			"name": "GZ Line 1 by Eric280",
+			"color": "FCD015",
+			"texture_id": "mtr:custom_directory/gzmtr_a1/gzmtr_a1",
+			"speed_sound_count": 0,
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/gzmtr_a1/gzmtr_a1.bbmodel",
+			"model_properties": "mtr:custom_directory/gzmtr_a1/gzmtr_a1.json"
+		},
+		"apm_100_red": {
+			"base_train_type": "base_11_2",
+			"color": "FF0000",
+			"texture_id": "mtr:custom_directory/apm/apm_100_red",
+			"speed_sound_count": 48,
+			"speed_sound_base_id": "cx100",
+			"door_sound_base_id": "cx100",
+			"has_gangway_connection": false,
+			"model": "mtr:custom_directory/apm/apm_100.bbmodel",
+			"model_properties": "mtr:custom_directory/apm/apm_100.json",
+			"name": "APM 100 Red (TPA)"
+		},
+		"apm_100_blue": {
+			"base_train_type": "base_11_2",
+			"color": "00FFFF",
+			"texture_id": "mtr:custom_directory/apm/apm_100_blue",
+			"speed_sound_count": 48,
+			"speed_sound_base_id": "cx100",
+			"door_sound_base_id": "cx100",
+			"has_gangway_connection": false,
+			"model": "mtr:custom_directory/apm/apm_100.bbmodel",
+			"model_properties": "mtr:custom_directory/apm/apm_100.json",
+			"name": "APM 100 Blue (TPA)"
+		},
+		"bart_legacy_aa": {
+			"base_train_type": "base_22_2",
+			"color": "45b6fe",
+			"texture_id": "mtr:custom_directory/bart_legacy/bart_legacy",
+			"speed_sound_count": 66,
+			"speed_sound_base_id": "bart_legacy",
+			"door_sound_base_id": "bart_legacy",
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/bart_legacy/bart_legacy.bbmodel",
+			"model_properties": "mtr:custom_directory/bart_legacy/bart_legacy_aa.json",
+			"name": "BART Legacy (A Car & A Car)"
+		},
+		"squirmyworm_decapitated": {
+			"name": "The train for the Centown Rick Astley Memorial Caterpillar Railway (not including head)",
+			"base_train_type": "base_3_2",
+			"color": "FF6600",
+			"texture_id": "mtr:squirmyworm/squirmyworm",
+			"speed_sound_count": 90,
+			"speed_sound_base_id": "mlr",
+			"door_sound_base_id": "mlr",
+			"has_gangway_connection": false,
+			"model": "mtr:squirmyworm/squirmyworm.bbmodel",
+			"model_properties": "mtr:squirmyworm/squirmyworm.json"
+		},
+		"srt_c1": {
+			"name": "Sorano Rapid Transit C1 Train",
+			"base_train_type": "base_20_2",
+			"color": "ff00ff",
+			"texture_id": "mtr:srt_hrt/srtc1",
+			"speed_sound_count": 90,
+			"speed_sound_base_id": "mlr",
+			"door_sound_base_id": "a_train",
+			"has_gangway_connection": false,
+			"model": "mtr:srt_hrt/srtc1.bbmodel",
+			"model_properties": "mtr:srt_hrt/srtc1.json"
+		},
+		"bart_legacy_c1c1": {
+			"base_train_type": "base_22_2",
+			"color": "45b6fe",
+			"texture_id": "mtr:custom_directory/bart_legacy/bart_legacy",
+			"speed_sound_count": 66,
+			"speed_sound_base_id": "bart_legacy",
+			"door_sound_base_id": "bart_legacy",
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/bart_legacy/bart_legacy.bbmodel",
+			"model_properties": "mtr:custom_directory/bart_legacy/bart_legacy_c1c1.json",
+			"name": "BART Legacy (C1 Car & C1 Car)"
+		},
+		"bart_legacy_ac1": {
+			"base_train_type": "base_22_2",
+			"color": "45b6fe",
+			"texture_id": "mtr:custom_directory/bart_legacy/bart_legacy",
+			"speed_sound_count": 66,
+			"speed_sound_base_id": "bart_legacy",
+			"door_sound_base_id": "bart_legacy",
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/bart_legacy/bart_legacy.bbmodel",
+			"model_properties": "mtr:custom_directory/bart_legacy/bart_legacy_ac1.json",
+			"name": "BART Legacy (A Car & C1 Car)"
+		},
+		"bart_legacy_c1a": {
+			"base_train_type": "base_22_2",
+			"color": "45b6fe",
+			"texture_id": "mtr:custom_directory/bart_legacy/bart_legacy",
+			"speed_sound_count": 66,
+			"speed_sound_base_id": "bart_legacy",
+			"door_sound_base_id": "bart_legacy",
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/bart_legacy/bart_legacy.bbmodel",
+			"model_properties": "mtr:custom_directory/bart_legacy/bart_legacy_c1a.json",
+			"name": "BART Legacy (C1 Car & A Car)"
+		},
+		"crh380a_vibrant_express": {
+			"base_train_type": "base_24_2",
+			"color": "B10837",
+			"texture_id": "mtr:custom_directory/crh380a_vibrant_express/crh380a_vibrant_express",
+			"speed_sound_count": 0,
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/crh380a_vibrant_express/crh380a_vibrant_express.bbmodel",
+			"model_properties": "mtr:custom_directory/crh380a_vibrant_express/crh380a_vibrant_express.json",
+			"name": "CRH380A Vibrant Express by TwinkleSprinkle"
+		},
+		"akivn_train": {
+			"name": "Origin Railway A Train (1) by akivn",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl",
+			"texture_id": "mtr:custom_directory/akivn/akivn_a_train_tcl.png"
+		},
+		"akivn_train_mini": {
+			"name": "Origin Railway A Train (1) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl_mini",
+			"texture_id": "mtr:custom_directory/akivn/akivn_a_train_tcl.png"
+		},
+		"akivn_train_2": {
+			"name": "Origin Railway A Train (2) by akivn",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl",
+			"texture_id": "mtr:custom_directory/akivn/a_train_tcl_2.png"
+		},
+		"akivn_train_mini_2": {
+			"name": "Origin Railway A Train (2) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl_mini",
+			"texture_id": "mtr:custom_directory/akivn/a_train_tcl_2.png"
+		},
+		"akivn_train_3": {
+			"name": "Origin Railway A Train (3) by akivn",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl",
+			"texture_id": "mtr:custom_directory/akivn/a_train_tcl_3.png"
+		},
+		"akivn_train_mini_3": {
+			"name": "Origin Railway A Train (3) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "a_train_tcl_mini",
+			"texture_id": "mtr:custom_directory/akivn/a_train_tcl_3.png"
+		},
+		"akivn_k_train_1": {
+			"name": "Origin Railway K Train (1) by akivn",
+			"color": "FCD015",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/akivn/k_train_1.png"
+		},
+		"akivn_k_train_mini_1": {
+			"name": "Origin Railway K Train (1) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/akivn/k_train_1.png"
+		},
+		"akivn_k_train_2": {
+			"name": "Origin Railway K Train (2) by akivn",
+			"color": "FCD015",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/akivn/k_train_2.png"
+		},
+		"akivn_k_train_mini_2": {
+			"name": "Origin Railway K Train (2) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/akivn/k_train_2.png"
+		},
+		"akivn_k_train_3": {
+			"name": "Origin Railway M Train (1) by akivn",
+			"color": "FCD015",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/akivn/m_train_1.png"
+		},
+		"akivn_k_train_mini_3": {
+			"name": "Origin Railway M Train (1) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/akivn/m_train_1.png"
+		},
+		"akivn_k_train_3a": {
+			"name": "Origin Railway K Train (3) by akivn",
+			"color": "FCD015",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/akivn/k_train_3.png"
+		},
+		"akivn_k_train_mini_3a": {
+			"name": "Origin Railway K Train (3) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/akivn/k_train_3.png"
+		},
+		"akivn_m_train_2": {
+			"name": "Origin Railway M Train (2) by akivn",
+			"color": "FCD015",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/akivn/m_train_2.png"
+		},
+		"akivn_m_train_mini_2": {
+			"name": "Origin Railway M Train (2) by akivn (Mini)",
+			"color": "FCD015",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/akivn/m_train_2.png"
+		},
+		"akivn_futuro": {
+			"name": "OR EMU4003 - 'Futuro'",
+			"color": "FCD015",
+			"base_train_type": "c_train",
+			"texture_id": "mtr:custom_directory/akivn/c_trainae.png"
+		},
+		"archipelago_e44": {
+			"name": "Archipelago Line E44",
+			"color": "FEC5E5",
+			"base_train_type": "e44",
+			"texture_id": "mtr:custom_directory/old_mlr.png"
+		},
+		"archipelago_e44_mini": {
+			"name": "Archipelago Line E44 (Mini)",
+			"color": "FEC5E5",
+			"base_train_type": "e44_mini",
+			"texture_id": "mtr:custom_directory/old_mlr.png"
+		},
+		"amorkous": {
+			"name": "Amorkous",
+			"color": "C550E5",
+			"base_train_type": "light_rail_1",
+			"texture_id": "mtr:custom_directory/amorkous.png"
+		},
+		"amorkous_2": {
+			"name": "Amorkous 2",
+			"color": "C550E5",
+			"base_train_type": "light_rail_3",
+			"texture_id": "mtr:custom_directory/amorkous_part_2.png"
+		},
+		"amorkous_3": {
+			"name": "Amorkous 3",
+			"color": "C550E5",
+			"base_train_type": "light_rail_1",
+			"texture_id": "mtr:custom_directory/amorkous_part_3.png"
+		},
+		"drl_m_train5door": {
+			"name": "DRL M Train by Eric280",
+			"color": "E777CB",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/m_train_drl.png"
+		},
+		"drl_m_train_2door": {
+			"name": "DRL M Train by Eric280 (Mini)",
+			"color": "E777CB",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/m_train_drl.png"
+		},
+		"kcrsp1900": {
+			"name": "KCR Millennium Train by Eric280",
+			"color": "B6008D",
+			"base_train_type": "sp1900",
+			"texture_id": "mtr:custom_directory/kcr_sp1900.png"
+		},
+		"kcrsp1900_mini": {
+			"name": "KCR Millennium Train by Eric280 (Mini)",
+			"color": "B6008D",
+			"base_train_type": "sp1900_mini",
+			"texture_id": "mtr:custom_directory/kcr_sp1900.png"
+		},
+		"m_train_hertiage": {
+			"name": "M Train Heritage by Eric280",
+			"color": "94989A",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/m_train_heritage.png"
+		},
+		"hrt_aquila_wyl": {
+			"name": "HRT Aquila (M4) [WYL]",
+			"color": "666699",
+			"base_train_type": "sp1900",
+			"texture_id": "mtr:custom_directory/hrt_m4.png"
+		},
+		"hrt_m22_alld_u": {
+			"name": "HRT '飛躍 Dashing' (M22) [ALLD-U]",
+			"color": "666699",
+			"base_train_type": "s_train",
+			"texture_id": "mtr:custom_directory/m224_m5.png"
+		},
+		"hrt_m22_alld_u_small": {
+			"name": "HRT '飛躍 Dashing' (M22) [ALLD-U]",
+			"color": "666699",
+			"base_train_type": "s_train_small",
+			"texture_id": "mtr:custom_directory/m224_m5.png"
+		},
+		"hrt_m23_bal": {
+			"name": "HRT (M23) [BAL]",
+			"color": "666699",
+			"base_train_type": "k_train_small",
+			"texture_id": "mtr:custom_directory/m1_banqiao.png"
+		},
+		"hrt_m19_myl": {
+			"name": "HRT '香義 Hongye' (M19) [MYL]",
+			"color": "666699",
+			"base_train_type": "k_train_small",
+			"texture_id": "mtr:custom_directory/srt_k_train.png"
+		},
+		"m_train_hertiage_mini": {
+			"name": "M Train Heritage by Eric280 (Mini)",
+			"color": "94989A",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/m_train_heritage.png"
+		},
+		"m_train_railwayvision": {
+			"name": "M Train Railway Vision by Eric280",
+			"color": "94989A",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/m_train_railwayvision.png"
+		},
+		"m_train_railwayvision_mini": {
+			"name": "M Train Railway Vision by Eric280 (Mini)",
+			"color": "94989A",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/m_train_railwayvision.png"
+		},
+		"mlr_unofficial": {
+			"name": "MLR Unofficial by Eric280",
+			"color": "61B4E4",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/m_train_mlr.png"
+		},
+		"mlr_unofficial_mini": {
+			"name": "MLR Unofficial by Eric280 (Mini)",
+			"color": "61B4E4",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/m_train_mlr.png"
+		},
+		"drl_b_train5door": {
+			"name": "DRL B Train by Eric280",
+			"color": "F800BB",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/drl_additional_train.png"
+		},
+		"drl_b_train2door": {
+			"name": "DRL B-Train by Eric280 (Mini)",
+			"color": "F800BB",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/drl_additional_train.png"
+		},
+		"drl_b_train5door_drm": {
+			"name": "DRL B Train with Electronic Display by Eric280",
+			"color": "F800BB",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/drl_additional_train_dynamicroutemap.png"
+		},
+		"drl_b_train2door_drm": {
+			"name": "DRL B-Train with Electronic Display by Eric280 (Mini)",
+			"color": "F800BB",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/drl_additional_train_dynamicroutemap.png"
+		},
+		"drl_b_train_new": {
+			"name": "DRL B-Train by Eric280 (New)",
+			"color": "F800BB",
+			"base_train_type": "drl",
+			"texture_id": "mtr:custom_directory/drl_b_train.png"
+		},
+		"sound_transit_1141a": {
+			"name": "Sound Transit C1141A by Eric280",
+			"color": "002E6D",
+			"base_train_type": "c1141a",
+			"texture_id": "mtr:custom_directory/sound_transit_c1141a.png"
+		},
+		"sound_transit_1141a_mini": {
+			"name": "Sound Transit C1141A by Eric280 (Mini)",
+			"color": "002E6D",
+			"base_train_type": "c1141a_mini",
+			"texture_id": "mtr:custom_directory/sound_transit_c1141a.png"
+		},
+		"launch_x_music_m_train": {
+			"name": "NYC Subway R262 by LaunchXMusic",
+			"color": "00305D",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/launch_x_music_m_train.png"
+		},
+		"launch_x_music_m_train_mini": {
+			"name": "NYC Subway R262 by LaunchXMusic (Mini)",
+			"color": "00305D",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/launch_x_music_m_train.png"
+		},
+		"maiko_k_train": {
+			"name": "Railway Vision K Train",
+			"color": "#999999",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/maiko_k_train.png"
+		},
+		"maiko_k_train_mini": {
+			"name": "Railway Vision K Train Mini",
+			"color": "#999999",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/maiko_k_train.png"
+		},
+		"rv2020_sp1900_train": {
+			"name": "RV2020 SP1900",
+			"color": "#871231",
+			"base_train_type": "sp1900",
+			"texture_id": "mtr:custom_directory/sp1900_rv.png"
+		},
+		"rv2020_sp1900_train_mini": {
+			"name": "RV2020 SP1900 Mini",
+			"color": "#871231",
+			"base_train_type": "sp1900_mini",
+			"texture_id": "mtr:custom_directory/sp1900_rv.png"
+		},
+		"rv2020_mlr_train": {
+			"name": "RV2020 MLR",
+			"color": "#871231",
+			"base_train_type": "mlr",
+			"texture_id": "mtr:custom_directory/mlr_refurbish.png"
+		},
+		"rv2020_mlr_train_mini": {
+			"name": "RV2020 MLR Mini",
+			"color": "#871231",
+			"base_train_type": "mlr_mini",
+			"texture_id": "mtr:custom_directory/mlr_refurbish.png"
+		},
+		"rv2020_a_train": {
+			"name": "RV2020 A Train",
+			"color": "#871231",
+			"base_train_type": "a_train_tcl",
+			"texture_id": "mtr:custom_directory/a_train_tkl.png"
+		},
+		"rv2020_a_train_mini": {
+			"name": "RV2020 A Train Mini",
+			"color": "#871231",
+			"base_train_type": "a_train_tcl",
+			"texture_id": "mtr:custom_directory/a_train_tkl.png"
+		},
+		"rv2020_k_train": {
+			"name": "RV2020 K Train (Purple)",
+			"color": "#871231",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/rv_k_q.png"
+		},
+		"rv2020_k_train_mini": {
+			"name": "RV2020 K Train Mini (Purple)",
+			"color": "#871231",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/rv_k_q.png"
+		},
+		"b1111a_k_train": {
+			"name": "SRT B1111A (M1) [CM3]",
+			"color": "#666699",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/b1111a_cm1.png"
+		},
+		"b1111a_k_train_mini": {
+			"name": "SRT B1111A (M1) [CM3] Mini",
+			"color": "#666699",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/b1111a_cm1.png"
+		},
+		"CHRSP": {
+			"name": "CHR SP1900",
+			"color": "#003399",
+			"base_train_type": "sp1900",
+			"texture_id": "mtr:custom_directory/chr/chr_sp1900.png"
+		},
+		"CHRspsm": {
+			"name": "CHR SP1900 Mini",
+			"color": "#003399",
+			"base_train_type": "sp1900_mini",
+			"texture_id": "mtr:custom_directory/chr/chr_sp1900.png"
+		},
+		"CHRMLR": {
+			"name": "CHR MLR",
+			"color": "#003399",
+			"base_train_type": "mlr",
+			"texture_id": "mtr:custom_directory/chr/chr_mlr.png"
+		},
+		"CHRMLRSmall": {
+			"name": "CHR MLR Small",
+			"color": "#003399",
+			"base_train_type": "mlr_small",
+			"texture_id": "mtr:custom_directory/chr/chr_mlr.png"
+		},
+		"CHR1441": {
+			"name": "CHR C1141A",
+			"color": "#B42249",
+			"base_train_type": "c1141a",
+			"texture_id": "mtr:custom_directory/chr/chr_c1141a.png"
+		},
+		"CHR1441sm": {
+			"name": "CHR C1141A (Mini)",
+			"color": "#B42249",
+			"base_train_type": "c1141a_mini",
+			"texture_id": "mtr:custom_directory/chr/chr_c1141a.png"
+		},
+		"CHRMtrain": {
+			"name": "CHR M Train",
+			"color": "#163A01",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/chr/chr_m_train.png"
+		},
+		"CHRMtrainmini": {
+			"name": "CHR M Train (Mini)",
+			"color": "#163A01",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/chr/chr_m_train.png"
+		},
+		"CHRLRT": {
+			"name": "CHR Light Rail",
+			"color": "#FF6A52",
+			"base_train_type": "light_rail_1",
+			"texture_id": "mtr:custom_directory/chr/chr_lightrail.png"
+		},
+		"snr_k_train": {
+			"name": "SNR K Train by Eric280",
+			"color": "#FF6A52",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/snr_k_train.png"
+		},
+		"snr_k_train_mini": {
+			"name": "SNR K Train by Eric280 (Mini)",
+			"color": "#FF6A52",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/snr_k_train.png"
+		},
+		"chr_drl": {
+			"name": "CHR DRL Train",
+			"color": "FF6A52",
+			"base_train_type": "drl",
+			"texture_id": "mtr:custom_directory/chr/chr_drl.png"
+		},
+		"wdr_c_train_small": {
+			"name": "WDR C Train (Small)",
+			"color": "FF6A52",
+			"base_train_type": "c_train_small",
+			"texture_id": "mtr:custom_directory/chr/wdr_c_train.png"
+		},
+		"wdr_k_train_small": {
+			"name": "WDR K Train (Small)",
+			"color": "FF6A52",
+			"base_train_type": "k_train_small",
+			"texture_id": "mtr:custom_directory/chr/wdr_k_train.png"
+		},
+		"chr_k_train": {
+			"name": "CHR K Train by Eric280",
+			"color": "FF6A52",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/chr/chr_k_train.png"
+		},
+		"chr_k_train_mini": {
+			"name": "CHR K Train by Eric280 (Mini)",
+			"color": "FF6A52",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/chr/chr_k_train.png"
+		},
+		"refurbe44": {
+			"name": "Refurbished E44",
+			"color": "666666",
+			"base_train_type": "e44",
+			"texture_id": "mtr:custom_directory/refurbe44.png"
+		},
+		"refurbchre44": {
+			"name": "Refurbished E44 (CHR)",
+			"color": "666666",
+			"base_train_type": "e44",
+			"texture_id": "mtr:custom_directory/refurbchre44.png"
+		},
+		"refurbendere44": {
+			"name": "Refurbished E44 (Ender)",
+			"color": "666666",
+			"base_train_type": "e44",
+			"texture_id": "mtr:custom_directory/refurbendere44.png"
+		},
+		"refurbe44_mini": {
+			"name": "Refurbished E44 (Mini)",
+			"color": "666666",
+			"base_train_type": "e44_mini",
+			"texture_id": "mtr:custom_directory/refurbe44.png"
+		},
+		"refurbchre44_mini": {
+			"name": "Refurbished E44 (CHR, Mini)",
+			"color": "666666",
+			"base_train_type": "e44_mini",
+			"texture_id": "mtr:custom_directory/refurbchre44.png"
+		},
+		"refurbendere44_mini": {
+			"name": "Refurbished E44 (Ender, Mini)",
+			"color": "666666",
+			"base_train_type": "e44_mini",
+			"texture_id": "mtr:custom_directory/refurbendere44.png"
+		},
+		"greenroof_k_train": {
+			"name": "Green Roof K Train by Eric280",
+			"color": "FF6A52",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/greenroof_k_train.png"
+		},
+		"greenroof_k_train_mini": {
+			"name": "Green Roof K Train by Eric280 (Mini)",
+			"color": "FF6A52",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/greenroof_k_train.png"
+		},
+		"hrt_c1116A": {
+			"name": "HRT C1116A",
+			"color": "FF6A52",
+			"base_train_type": "e44",
+			"texture_id": "mtr:custom_directory/hrt_c1116a_e44.png"
+		},
+		"hrt_c_train_rv": {
+			"name": "HRT C-Train RV",
+			"color": "FF6A52",
+			"base_train_type": "c_train",
+			"texture_id": "mtr:custom_directory/c_train_rv_hrt.png"
+		},
+		"a_train_rv": {
+			"name": "RV A Train",
+			"color": "FF6A52",
+			"base_train_type": "a_train",
+			"texture_id": "mtr:custom_directory/a_train_rv.png"
+		},
+		"c_train_rv": {
+			"name": "RV C Train",
+			"color": "FF6A52",
+			"base_train_type": "c_train",
+			"texture_id": "mtr:custom_directory/c_train_rv.png"
+		},
+		"c_train_rv_mini": {
+			"name": "RV C Train (Mini)",
+			"color": "FF6A52",
+			"base_train_type": "c_train_mini",
+			"texture_id": "mtr:custom_directory/c_train_rv.png"
+		},
+		"yellow_head_misaka": {
+			"name": "MLR Yellow Head by Misaka",
+			"color": "#FF6A52",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/yellow_head_misaka.png"
+		},
+		"yellow_head_misaka_mini": {
+			"name": "MLR Yellow Head by Misaka (Mini)",
+			"color": "#FF6A52",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:custom_directory/yellow_head_misaka.png"
+		},
+		"bosco_k_train": {
+			"name": "CLR Light Rapid Transit Addon for Minecraft Transit Railway​",
+			"color": "FEC5E5",
+			"base_train_type": "k_train",
+			"texture_id": "mtr:custom_directory/bosco_custom_k_train.png"
+		},
+		"bosco_k_train_mini": {
+			"name": "CLR Light Rapid Transit Addon for Minecraft Transit Railway (Mini)​",
+			"color": "FEC5E5",
+			"base_train_type": "k_train_mini",
+			"texture_id": "mtr:custom_directory/bosco_custom_k_train.png"
+		},
+		"clr_light_rail": {
+			"name": "CLR Light Rail",
+			"color": "E8BFFF",
+			"base_train_type": "light_rail_4",
+			"texture_id": "mtr:custom_directory/light_rail_clr.png"
+		}
+	},
+	"custom_signs": {
+		"akivn_logo_1_text": {
+			"texture_id": "mtr:custom_directory/akivn_logo.png",
+			"flip_texture": false,
+			"custom_text": "原生鐵路|Origin Railway",
+			"flip_custom_text": false,
+			"small": false
+		},
+		"akivn_logo_1_text_flipped": {
+			"texture_id": "mtr:custom_directory/akivn_logo.png",
+			"flip_texture": false,
+			"custom_text": "原生鐵路|Origin Railway",
+			"flip_custom_text": true,
+			"small": false
+		},
+		"akivn_logo_2": {
+			"texture_id": "mtr:custom_directory/akivn_logo.png",
+			"small": false
+		},
+		"CHR_without_text": {
+			"texture_id": "mtr:custom_directory/chr_custom_sign.png",
+			"small": false
+
+		},
+		"CHR_with_text": {
+			"texture_id": "mtr:custom_directory/chr_custom_sign.png",
+			"flip_texture": false,
+			"custom_text": "岑香鐵路|CHR",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"CHR_with_text_flipped": {
+			"texture_id": "mtr:custom_directory/chr_custom_sign.png",
+			"flip_texture": false,
+			"custom_text": "岑香鐵路|CHR",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"other_trains": {
+			"texture_id": "mtr:custom_directory/other.png",
+			"flip_texture": false,
+			"custom_text": "地鐵列車及其他列車|Metro and Other Trains",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"other_train_flipped": {
+			"texture_id": "mtr:custom_directory/other.png",
+			"flip_texture": false,
+			"custom_text": "地鐵列車及其他列車|Metro and Other Trains",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"disneyland_icon": {
+			"texture_id": "mtr:custom_directory/drl_icon.png",
+			"small": true
+		},
+		"disneyland_sign": {
+			"texture_id": "mtr:custom_directory/drl_icon.png",
+			"flip_texture": false,
+			"custom_text": "往迪士尼列車|Trains to Disneyland",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"disneyland_sign_flipped": {
+			"texture_id": "mtr:custom_directory/drl_icon.png",
+			"flip_texture": false,
+			"custom_text": "往迪士尼列車|Trains to Disneyland",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"diving_adora_exit_1_text": {
+			"texture_id": "mtr:custom_directory/diving_adora_exit.png",
+			"flip_texture": false,
+			"custom_text": "往出口|to Exit",
+			"flip_custom_text": false,
+			"small": false
+		},
+		"diving_adora_exit_1_text_flipped": {
+			"texture_id": "mtr:custom_directory/diving_adora_exit.png",
+			"flip_texture": false,
+			"custom_text": "往出口|to Exit",
+			"flip_custom_text": true,
+			"small": false
+		},
+		"diving_adora_exit_2": {
+			"texture_id": "mtr:custom_directory/diving_adora_exit.png",
+			"small": false
+		},
+		"diving_adora_lift": {
+			"texture_id": "mtr:custom_directory/diving_adora_lift.png",
+			"small": true
+		},
+		"diving_adora_lift_text": {
+			"texture_id": "mtr:custom_directory/diving_adora_lift.png",
+			"flip_texture": false,
+			"custom_text": "升降機|Lift",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"diving_adora_lift_text_flipped": {
+			"texture_id": "mtr:custom_directory/diving_adora_lift.png",
+			"flip_texture": false,
+			"custom_text": "升降機|Lift",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"diving_adora_train": {
+			"texture_id": "mtr:custom_directory/diving_adora_train.png",
+			"small": true
+		},
+		"diving_adora_train_text": {
+			"texture_id": "mtr:custom_directory/diving_adora_train.png",
+			"flip_texture": false,
+			"custom_text": "往月臺|to Platforms",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"diving_adora_train_text_flipped": {
+			"texture_id": "mtr:custom_directory/diving_adora_train.png",
+			"flip_texture": false,
+			"custom_text": "往月臺|to Platforms",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"happy_logo": {
+			"texture_id": "mtr:custom_directory/happy_logo.png",
+			"small": false
+		},
+		"launch_x_music_logo": {
+			"texture_id": "mtr:custom_directory/launch_x_music_logo.png",
+			"small": false
+		},
+		"platform_gap": {
+			"texture_id": "mtr:custom_directory/platform_gap.png",
+			"small": true
+		},
+		"platform_gap_text": {
+			"texture_id": "mtr:custom_directory/platform_gap.png",
+			"flip_texture": false,
+			"custom_text": "請小心月台空隙|Please mind the gap",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"platform_gap_text_flipped": {
+			"texture_id": "mtr:custom_directory/platform_gap.png",
+			"flip_texture": true,
+			"custom_text": "請小心月台空隙|Please mind the gap",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"snr_logo": {
+			"texture_id": "mtr:custom_directory/snr_logo.png",
+			"small": false
+		},
+		"snr_logo_text": {
+			"texture_id": "mtr:custom_directory/snr_logo.png",
+			"flip_texture": false,
+			"custom_text": "歡迎乘搭絆幻鐵路|Welcome to Somnium Network Railways",
+			"flip_custom_text": false,
+			"small": false
+		},
+		"snr_logo_text_flipped": {
+			"texture_id": "mtr:custom_directory/snr_logo.png",
+			"flip_texture": false,
+			"custom_text": "歡迎乘搭絆幻鐵路|Welcome to Somnium Network Railways",
+			"flip_custom_text": true,
+			"small": false
+		},
+		"social_distance": {
+			"texture_id": "mtr:custom_directory/social_distance.png",
+			"small": true
+		},
+		"social_distance_text": {
+			"texture_id": "mtr:custom_directory/social_distance.png",
+			"flip_texture": false,
+			"custom_text": "請保持社交距離|Please maintain social distance",
+			"flip_custom_text": false,
+			"small": true
+		},
+		"social_distance_text_flipped": {
+			"texture_id": "mtr:custom_directory/social_distance.png",
+			"flip_texture": false,
+			"custom_text": "請保持社交距離|Please maintain social distance",
+			"flip_custom_text": true,
+			"small": true
+		},
+		"sound_transit_logo": {
+			"texture_id": "mtr:custom_directory/sound_transit_logo.png",
+			"small": false
+		},
+		"sound_transit_logo_text": {
+			"texture_id": "mtr:custom_directory/sound_transit_logo.png",
+			"flip_texture": false,
+			"custom_text": "列車|Trains",
+			"flip_custom_text": false,
+			"small": false
+		},
+		"sound_transit_logo_text_flipped": {
+			"texture_id": "mtr:custom_directory/sound_transit_logo.png",
+			"flip_texture": false,
+			"custom_text": "列車|Trains",
+			"flip_custom_text": true,
+			"small": false
+		},
+		"srt_logo": {
+			"texture_id": "mtr:custom_directory/srt_logo.png",
+			"small": false
+		},
+		"t_kcr_sign": {
+			"texture_id": "mtr:custom_directory/kcr_logo.png",
+			"flip_texture": false,
+			"custom_text": "九廣鐵路|Kowloon Canton Railway",
+			"flip_custom_text": false,
+			"small": true,
+			"background_color": "000000"
+		},
+		"t_kcr_icon": {
+			"texture_id": "mtr:custom_directory/kcr_logo.png",
+			"flip_texture": false,
+			"custom_text": "",
+			"flip_custom_text": false,
+			"small": true,
+			"background_color": "000000"
+		},
+		"t_kcr_sign_flipped": {
+			"texture_id": "mtr:custom_directory/kcr_logo.png",
+			"flip_texture": false,
+			"custom_text": "九廣鐵路|Kowloon Canton Railway",
+			"flip_custom_text": true,
+			"small": true,
+			"background_color": "000000"
+		},
+		"u_interchange_icon": {
+			"texture_id": "mtr:custom_directory/interchange.png",
+			"flip_texture": false,
+			"custom_text": "",
+			"flip_custom_text": false,
+			"small": false,
+			"background_color": "000000"
+		},
+		"u_interchange_sign": {
+			"texture_id": "mtr:custom_directory/interchange.png",
+			"flip_texture": false,
+			"custom_text": "接續轉乘|Interchange",
+			"flip_custom_text": false,
+			"small": false,
+			"background_color": "000000"
+		},
+		"u_interchange_sign_flipped": {
+			"texture_id": "mtr:custom_directory/interchange.png",
+			"flip_texture": false,
+			"custom_text": "接續轉乘|Interchange",
+			"flip_custom_text": true,
+			"small": false,
+			"background_color": "000000"
+		}
+	}
+}
