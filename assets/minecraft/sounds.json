@@ -154,32 +154,32 @@
 		"category": "master",
 		"sounds": ["s/face_coverings"]
 	},
-	"ctr.Announcement_Refrain_from_modifying_maps": {
+	"ctr.announcement_refrain_from_modifying_maps": {
 		"category": "master",
-		"sounds": ["ctr/Announcement_Refrain_from_modifying_maps"]
+		"sounds": ["ctr/announcement_refrain_from_modifying_maps"]
 	},
-	"ctr.youer_Northbound_Terminus": {
+	"ctr.youer_northbound_terminus": {
 		"category": "master",
-		"sounds": ["ctr/youer_Northbound_Terminus"]
+		"sounds": ["ctr/youer_northbound_terminus"]
 	},
-	"ctr.youer_Southbound_Terminus": {
+	"ctr.youer_southbound_terminus": {
 		"category": "master",
-		"sounds": ["ctr/youer_Northbound_Terminus"]
+		"sounds": ["ctr/youer_northbound_terminus"]
 	},
-	"ctr.youer_Northbound_2min": {
+	"ctr.youer_northbound_2min": {
 		"category": "master",
-		"sounds": ["ctr/youer_Northbound_2min"]
+		"sounds": ["ctr/youer_northbound_2min"]
 	},
-	"ctr.youer_Southbound_2min": {
+	"ctr.youer_southbound_2min": {
 		"category": "master",
-		"sounds": ["ctr/youer_Southbound_2min"]
+		"sounds": ["ctr/youer_southbound_2min"]
 	},
-	"ctr.youer_Northbound_Arrival": {
+	"ctr.youer_northbound_arrival": {
 		"category": "master",
-		"sounds": ["ctr/youer_Northbound_Arrival"]
+		"sounds": ["ctr/youer_northbound_arrival"]
 	},
-	"ctr.youer_Southbound_Arrival": {
+	"ctr.youer_southbound_arrival": {
 		"category": "master",
-		"sounds": ["ctr/youer_Southbound_Arrival"]
+		"sounds": ["ctr/youer_southbound_arrival"]
 	}
 }
