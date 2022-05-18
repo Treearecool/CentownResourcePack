@@ -6,6 +6,7 @@
 			"color": "FCD015",
 			"texture_id": "mtr:custom_directory/gzmtr_a1/gzmtr_a1",
 			"speed_sound_count": 0,
+			"door_sound_base_id": "gzmtr_a1",
 			"has_gangway_connection": true,
 			"model": "mtr:custom_directory/gzmtr_a1/gzmtr_a1.bbmodel",
 			"model_properties": "mtr:custom_directory/gzmtr_a1/gzmtr_a1.json"
@@ -45,6 +46,18 @@
 			"model": "mtr:custom_directory/bart_legacy/bart_legacy.bbmodel",
 			"model_properties": "mtr:custom_directory/bart_legacy/bart_legacy_aa.json",
 			"name": "BART Legacy (A Car & A Car)"
+		},
+		"bart_future": {
+			"base_train_type": "base_20_2",
+			"color": "45b6fe",
+			"texture_id": "mtr:custom_directory/bart_future",
+			"speed_sound_count": 66,
+			"speed_sound_base_id": "bart_future",
+			"door_sound_base_id": "bart_future",
+			"has_gangway_connection": true,
+			"model": "mtr:custom_directory/bart_future_fleet.bbmodel",
+			"model_properties": "mtr:custom_directory/bart_future.json",
+			"name": "BART (Fleet Of The Future)"
 		},
 		"squirmyworm_decapitated": {
 			"name": "The train for the Centown Rick Astley Memorial Caterpillar Railway (not including head)",
