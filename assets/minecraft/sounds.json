@@ -164,7 +164,7 @@
 	},
 	"ctr.youer_southbound_terminus": {
 		"category": "master",
-		"sounds": ["ctr/youer_northbound_terminus"]
+		"sounds": ["ctr/youer_southbound_terminus"]
 	},
 	"ctr.youer_northbound_2min": {
 		"category": "master",
