@@ -532,16 +532,18 @@
 	"parts_door_closed": [{
 			"part_name": "door_light_off",
 			"positions": [
-				[0, -120],
-				[0, -40],
-				[0, 40],
-				[0, 120]
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
 			],
 			"positions_flipped": [
-				[0, -120],
-				[0, -40],
-				[0, 40],
-				[0, 120]
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
 			],
 			"stage": "interior",
 			"skip_rendering_if_too_far": true
