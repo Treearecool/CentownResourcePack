@@ -158,13 +158,49 @@
 		"category": "master",
 		"sounds": ["ctr/announcement_refrain_from_modifying_maps"]
 	},
-	"ctr.youer_northbound_terminus": {
+	"ctr.announcement_door_left": {
 		"category": "master",
-		"sounds": ["ctr/youer_northbound_terminus"]
+		"sounds": ["ctr/announcement_door_left"]
 	},
-	"ctr.youer_southbound_terminus": {
+	"ctr.announcement_door_right": {
 		"category": "master",
-		"sounds": ["ctr/youer_southbound_terminus"]
+		"sounds": ["ctr/announcement_door_right"]
+	},
+	"ctr.youer_starscout_terminus": {
+		"category": "master",
+		"sounds": ["ctr/youer_starscout_terminus"]
+	},
+	"ctr.youer_moonbow": {
+		"category": "master",
+		"sounds": ["ctr/youer_moonbow"]
+	},
+	"ctr.youer_photoelectricpark": {
+		"category": "master",
+		"sounds": ["ctr/youer_photoelectricpark"]
+	},
+	"ctr.youer_lovebirdheadquarters": {
+		"category": "master",
+		"sounds": ["ctr/youer_lovebirdheadquarters"]
+	},
+	"ctr.youer_queengenkithefirst": {
+		"category": "master",
+		"sounds": ["ctr/youer_queengenkithefirst"]
+	},
+	"ctr.youer_centralpark": {
+		"category": "master",
+		"sounds": ["ctr/youer_centralpark"]
+	},
+	"ctr.youer_boscoism": {
+		"category": "master",
+		"sounds": ["ctr/youer_boscoism"]
+	},
+	"ctr.youer_jobanstreet": {
+		"category": "master",
+		"sounds": ["ctr/youer_jobanstreet"]
+	},
+	"ctr.youer_harmon_terminus": {
+		"category": "master",
+		"sounds": ["ctr/youer_harmon_terminus"]
 	},
 	"ctr.youer_northbound_2min": {
 		"category": "master",
