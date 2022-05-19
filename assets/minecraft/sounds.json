@@ -158,6 +158,10 @@
 		"category": "master",
 		"sounds": ["ctr/announcement_refrain_from_modifying_maps"]
 	},
+	"ctr.announcement_refrain_from_running": {
+		"category": "master",
+		"sounds": ["ctr/announcement_refrain_from_running"]
+	},
 	"ctr.announcement_door_left": {
 		"category": "master",
 		"sounds": ["ctr/announcement_door_left"]
