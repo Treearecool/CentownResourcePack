@@ -306,5 +306,60 @@
 	"ctr.youer_southbound_arrival": {
 		"category": "master",
 		"sounds": ["ctr/youer_southbound_arrival"]
+	},
+        "mtr_door_close": {
+		"sounds": [{
+			"name": "minecraft:mtr_door_close"
+		}]
+	},
+        "icm_isu_sub_w": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_sub_w"
+		}]
+	},
+        "icm_isu_sub_e": {
+		"sounds": [{
+			"name": "icm_isu_sub_e"
+		}]
+	}, 
+        "icm_isu_snv": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_snv"
+		}]
+	},
+        "icm_isu_sam_w": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_sam_w"
+		}]
+	},
+        "icm_isu_sam_e": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_sam_e"
+		}]
+	},
+        "icm_isu_ihs": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_ihs"
+		}]
+	},
+        "icm_isu_chm_w": {
+		"sounds": [{
+			"name": "minecraft:icm_isu_chm_w"
+		}]
+	},
+        "eal_train_depart": {
+		"sounds": [{
+			"name": "minecraft:eal_train_depart"
+		}]
+	},
+        "eal_terminus": {
+		"sounds": [{
+			"name": "minecraft:eal_terminus"
+		}]
+	},
+        "hrt_mind_the_gap": {
+		"sounds": [{
+			"name": "minecraft:hrt_mind_the_gap"
+		}]
 	}
 }
