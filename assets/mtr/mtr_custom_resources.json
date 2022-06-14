@@ -681,6 +681,12 @@
 			"color": "E8BFFF",
 			"base_train_type": "light_rail_4",
 			"texture_id": "mtr:custom_directory/light_rail_clr.png"
+		},
+		"class_802_chr": {
+			"name": "CHR Class 802",
+			"color": "3437eb",
+			"base_train_type": "class_802_tpe",
+			"texture_id": "mtr:custom_directory/chr/class_802_chr.png"
 		}
 	},
 	"custom_signs": {
