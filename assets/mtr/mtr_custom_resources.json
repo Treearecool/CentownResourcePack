@@ -687,6 +687,12 @@
 			"color": "3437eb",
 			"base_train_type": "class_802_tpe",
 			"texture_id": "mtr:custom_directory/chr/class_802_chr.png"
+		},
+		"forail_c1141a_rsl": {
+			"name": "FoRail C1141A (RSL)",
+			"color": "FF5050",
+			"base_train_type": "c1141a",
+			"texture_id": "mtr:custom_directory/forail/forail_c1141a_rsl.png"
 		}
 	},
 	"custom_signs": {
