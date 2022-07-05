@@ -681,7 +681,35 @@
 			"color": "E8BFFF",
 			"base_train_type": "light_rail_4",
 			"texture_id": "mtr:custom_directory/light_rail_clr.png"
+		},
+		"rv_sp_fc": {
+			"name":"Railway Vision SP1900 (IHS-CEN)",
+			 "color":"E870D9",
+			 "gangway_connection_id":"mtr:textures/entity/sp1900",
+			 "train_barrier_id":"mtr:textures/entity/mlr",
+			 "rider_offset":0.0,
+			 "texture_id":"mtr:custom_directory/rv_sp_fc",
+			 "model":"mtr:custom_directory/rv_sp_fc.bbmodel",
+			 "model_properties":"mtr:custom_directory/rv_sp_fc.json",
+			 "speed_sound_count":117,
+			 "speed_sound_base_id":"sp1900",
+			 "door_sound_base_id":"sp1900"
+		},
+		"rv_sp_fc_ksd": {
+			"name":"Railway Vision SP1900 (IHS-KSD)",
+			 "color":"E870D9",
+			 "gangway_connection_id":"mtr:textures/entity/sp1900",
+			 "train_barrier_id":"mtr:textures/entity/mlr",
+			 "rider_offset":0.0,
+			 "texture_id":"mtr:custom_directory/rv_sp_fc_ksd",
+			 "model":"mtr:custom_directory/rv_sp_fc.bbmodel",
+			 "model_properties":"mtr:custom_directory/rv_sp_fc.json",
+			 "speed_sound_count":117,
+			 "speed_sound_base_id":"sp1900",
+			 "door_sound_base_id":"sp1900"
 		}
+
+
 	},
 	"custom_signs": {
 		"akivn_logo_1_text": {
