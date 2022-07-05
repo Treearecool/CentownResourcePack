@@ -74,6 +74,91 @@
 			"name": "minecraft:train_approaching_male"
 		}]
 	},
+	"special_train_to_centown": {
+		"sounds": [{
+			"name": "minecraft:special_train_to_centown"
+		}]
+	},
+	"to_ay_bek_road": {
+		"sounds": [{
+			"name": "minecraft:to_ay_bek_road"
+		}]
+	},
+	"to_central": {
+		"sounds": [{
+			"name": "minecraft:to_central"
+		}]
+	},
+	"to_cheung_sing_tsuen": {
+		"sounds": [{
+			"name": "minecraft:to_cheung_sing_tsuen"
+		}]
+	},
+	"to_chisanyake": {
+		"sounds": [{
+			"name": "minecraft:to_chisanyake"
+		}]
+	},
+	"to_liebengburg": {
+		"sounds": [{
+			"name": "minecraft:to_liebengburg"
+		}]
+	},
+	"to_ryde": {
+		"sounds": [{
+			"name": "minecraft:to_ryde"
+		}]
+	},
+	"to_ryde_lieb": {
+		"sounds": [{
+			"name": "minecraft:to_ryde_lieb"
+		}]
+	},
+	"to_ryde_shipwreck": {
+		"sounds": [{
+			"name": "minecraft:to_ryde_shipwreck"
+		}]
+	},
+	"to_ryde_wanho": {
+		"sounds": [{
+			"name": "minecraft:to_ryde_wanho"
+		}]
+	},
+	"to_shek_chung_au": {
+		"sounds": [{
+			"name": "minecraft:to_shek_chung_au"
+		}]
+	},
+	"to_tai_shue_wan": {
+		"sounds": [{
+			"name": "minecraft:to_tai_shue_wan"
+		}]
+	},
+	"to_wanho_anchor": {
+		"sounds": [{
+			"name": "minecraft:to_wanho_anchor"
+		}]
+	},
+	"to_wanho_andowns": {
+		"sounds": [{
+			"name": "minecraft:to_wanho_andowns"
+		}]
+	},
+	"to_wanho_bay": {
+		"sounds": [{
+			"name": "minecraft:to_wanho_bay"
+		}]
+	},
+	"to_wanho_esplanade": {
+		"sounds": [{
+			"name": "minecraft:to_wanho_esplanade"
+		}]
+	},
+	"to_wanho_lieben": {
+		"sounds": [{
+			"name": "minecraft:to_wanho_lieben"
+		}]
+	},
 	"ol.forest_hills": {
 		"category": "master",
 		"sounds": ["ol/forest_hills"]

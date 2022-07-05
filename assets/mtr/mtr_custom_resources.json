@@ -707,6 +707,12 @@
 			 "speed_sound_count":117,
 			 "speed_sound_base_id":"sp1900",
 			 "door_sound_base_id":"sp1900"
+    },
+		"class_802_chr": {
+			"name": "CHR Class 802",
+			"color": "3437eb",
+			"base_train_type": "class_802_tpe",
+			"texture_id": "mtr:custom_directory/chr/class_802_chr.png"
 		}
 
 
