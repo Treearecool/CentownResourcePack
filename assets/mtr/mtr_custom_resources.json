@@ -719,7 +719,7 @@
 			 "model_properties":"mtr:custom_directory/icmc1141a.json",
 			 "speed_sound_count":93,
 			 "speed_sound_base_id":"c1141a",
-			 "door_sound_base_id":"c1141a"
+			 "door_sound_base_id":"sp1900"
    		 },
 		"c1141a_cen": {
 			"name":"C1141A (IHS-CEN)",
@@ -732,7 +732,7 @@
 			 "model_properties":"mtr:custom_directory/icmc1141a.json",
 			 "speed_sound_count":93,
 			 "speed_sound_base_id":"c1141a",
-			 "door_sound_base_id":"c1141a"
+			 "door_sound_base_id":"sp1900"
    		 },
 		"class_802_chr": {
 			"name": "CHR Class 802",
