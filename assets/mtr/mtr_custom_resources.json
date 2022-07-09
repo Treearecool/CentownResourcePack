@@ -707,7 +707,33 @@
 			 "speed_sound_count":117,
 			 "speed_sound_base_id":"sp1900",
 			 "door_sound_base_id":"sp1900"
-    },
+   		 },
+		"c1141a_ksd": {
+			"name":"C1141A (IHS-KSD)",
+			 "color":"E870D9",
+			 "gangway_connection_id":"mtr:textures/entity/sp1900",
+			 "train_barrier_id":"mtr:textures/entity/mlr",
+			 "rider_offset":0.0,
+			 "texture_id":"mtr:custom_directory/c1141a_ksd",
+			 "model":"mtr:custom_directory/c1141a_ksd.bbmodel",
+			 "model_properties":"mtr:custom_directory/icmc1141a.json",
+			 "speed_sound_count":93,
+			 "speed_sound_base_id":"c1141a",
+			 "door_sound_base_id":"sp1900"
+   		 },
+		"c1141a_cen": {
+			"name":"C1141A (IHS-CEN)",
+			 "color":"E870D9",
+			 "gangway_connection_id":"mtr:textures/entity/sp1900",
+			 "train_barrier_id":"mtr:textures/entity/mlr",
+			 "rider_offset":0.0,
+			 "texture_id":"mtr:custom_directory/c1141a_cen",
+			 "model":"mtr:custom_directory/c1141a_ksd.bbmodel",
+			 "model_properties":"mtr:custom_directory/icmc1141a.json",
+			 "speed_sound_count":93,
+			 "speed_sound_base_id":"c1141a",
+			 "door_sound_base_id":"sp1900"
+   		 },
 		"class_802_chr": {
 			"name": "CHR Class 802",
 			"color": "3437eb",
